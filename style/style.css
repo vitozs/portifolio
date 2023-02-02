@@ -4,7 +4,10 @@
     DESTACAR: #777DF2
 
 */
-
+*{
+    padding: 0;
+    margin: 0;
+}
 body{
     background-color: #0D0D0D;
     color: #E9E9F2;
@@ -12,6 +15,21 @@ body{
 
 html,body{
     overflow-x: hidden;
+}
+
+section{
+    padding: 3em 5em 3em 5em;
+    font-size: 1.20em;
+}
+
+hr{
+    width: 35%;
+    padding: 2px;
+    margin: auto;
+    margin-bottom: 50px;
+    opacity: 100%;
+    border: none;
+    
 }
 
 .destaque{
@@ -22,6 +40,7 @@ html,body{
     position: fixed;
     width: 100%;
     z-index: -1;
+
 }
 
 
@@ -49,9 +68,29 @@ html,body{
 /***************************************************
 SEÇÃO 2*/
 
-.sect-2{
+.white{
     background-color: #E9E9F2;
-    height: 500px;
     color: black;
+
 }
 
+
+.sect-2 hr{
+    background-color: rgb(0, 0, 0);
+}
+
+/*********************************************************************
+SEÇÃO 3*/
+
+.sect-3 hr{
+    background-color: white;
+}
+
+.sect-3 .lang-box{
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 5em;
+
+    margin: 10px;
+}
