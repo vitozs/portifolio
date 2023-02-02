@@ -13,9 +13,7 @@ body{
     color: #E9E9F2;
 }
 
-html,body{
-    overflow-x: hidden;
-}
+
 
 section{
     padding: 3em 5em 3em 5em;
@@ -44,25 +42,94 @@ hr{
 }
 
 
-/*HOME 1*/
+/***********************************************
+HOME*/
+
+header{
+    padding: 30px;
+    font-size: 1.3em;
+    transition-timing-function: ease;
+    transition-duration: 0.5s;
+    transition-property: all;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    padding: 0 5em 0 5em;
+
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li{
+    margin-right: 50px;
+
+}
+
+.menu-white{
+    background: white; padding: 10px; color: black; 
+    box-shadow: 0 0 2em #777DF2;
+  
+
+}
+
+.menu-white a{
+    color: black;
+}
+
+nav a{
+    text-decoration: none;
+    position: relative;
+    color: white;
+
+}
+
+nav ul li a::after{
+    content: "";
+    background: none repeat scroll 0 0 transparent;
+    position: absolute;
+    background-color: #777DF2;
+    display: block;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    transition: width 0.4s ease-in-out 0s, left 0.4s ease-in-out 0s;
+  
+    
+  
+  }
+  
+  nav i{
+    font-size: 1.3em;
+  }
+
+  nav ul li a:hover::after {
+      width: 100%;
+      left: 0;
+  }
+
+  nav a:hover{
+    color: #777DF2;;
+  }
+
 .sect-1{
     height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 100px;
 }
 
 .sect-1 h1{
-    width: 600px;
-
+    width: max-content;
 }
 
 .sect-1.texto{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+    margin: auto;
 }
 
 /***************************************************
