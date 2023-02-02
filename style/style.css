@@ -23,10 +23,10 @@ section{
 }
 
 hr{
-    width: 35%;
-    padding: 2px;
+    width: 25%;
+    padding: 1px;
     margin: auto;
-    margin-bottom: 50px;
+    margin-bottom: 4em;
     opacity: 100%;
     border: none;
     
@@ -44,7 +44,7 @@ hr{
 }
 
 
-/*SEÇÃO 1*/
+/*HOME 1*/
 .sect-1{
     height: 500px;
     display: flex;
@@ -66,7 +66,7 @@ hr{
 }
 
 /***************************************************
-SEÇÃO 2*/
+SOBRE MIM 2*/
 
 .white{
     background-color: #E9E9F2;
@@ -74,13 +74,16 @@ SEÇÃO 2*/
 
 }
 
+.white hr{
+    background-color: #000000;
+}
 
 .sect-2 hr{
     background-color: rgb(0, 0, 0);
 }
 
 /*********************************************************************
-SEÇÃO 3*/
+SKILLS 3*/
 
 .sect-3 hr{
     background-color: white;
@@ -91,6 +94,28 @@ SEÇÃO 3*/
     border-radius: 20px;
     padding: 15px;
     font-size: 5em;
-
+    cursor: pointer;
     margin: 10px;
+}
+
+.quadro{
+    display: none;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    padding: 35px;
+}
+
+/*********************************************
+PROJETOS*/
+.projeto-box{
+    width: 300px;
+    height: 450px;
+    padding: 14px;
+    font-size:0.8em ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 0 1em rgb(124, 123, 123);
+
 }

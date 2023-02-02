@@ -17,9 +17,7 @@
 
     <!--PARTICULAS-->
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-
-    <!--JS-->
-    <script src="scripts/app.js"></script>
+    <script src="scripts/particulas.js"></script>
 
     <!--WRITTER-->
     <script crossorigin="anonymous" src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js" defer></script>
@@ -28,7 +26,6 @@
     <script defer src="scripts/writter.js"></script>
 
     <!--ICONS-->
-    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
           
 
@@ -68,33 +65,34 @@
         <div class="row">
             <div class="col-7">
                 <div class="d-flex justify-content-beetween flex-row flex-wrap" >
-                    <div class="lang-box">
+                    <div onclick="getLang('html')" class="lang-box" id="html">
                         <i class="devicon-html5-plain"></i>
                     </div>
-                    <div class="lang-box">
+                    <div onclick="getLang('css')" class="lang-box">
                         <i class="devicon-css3-plain"></i>
                     </div>
-                    <div class="lang-box">
+                    <div onclick="getLang('bootstrap')" class="lang-box">
                         <i class="devicon-bootstrap-plain"></i>
                     </div>
-                    <div class="lang-box">
+                    <div onclick="getLang('js')" class="lang-box">
                         <i class="devicon-javascript-plain"></i>
                     </div>
-                    <div class="lang-box">
+                    <div onclick="getLang('php')" class="lang-box">
                         <i class="devicon-php-plain"></i>
                     </div>
-                    <div class="lang-box">
+                    <div onclick="getLang('sql')" class="lang-box">
                         <i class="devicon-mysql-plain"></i>
                     </div>
-                    <div class="lang-box">
+                    <div onclick="getLang('git')" class="lang-box">
                         <i class="devicon-git-plain"></i>
                     </div>
                 </div>
 
             </div>
             <div class="col-5">
-                <div>
-                    EXPLICAÇÃO
+                <div class="quadro" id="quadro">
+                    <h2 class="text-center" id="title"></h2>
+                    <p id="texto"></p>
                 </div>
             </div>
         </div>
@@ -105,41 +103,23 @@
         <h1 class="text-center">Projetos</h1>
         <hr>
         
-        <div class="row">
-            <div class="col-7">
-                <div class="d-flex justify-content-beetween flex-row flex-wrap" >
-                    <div class="lang-box">
-                        <i class="devicon-html5-plain"></i>
-                    </div>
-                    <div class="lang-box">
-                        <i class="devicon-css3-plain"></i>
-                    </div>
-                    <div class="lang-box">
-                        <i class="devicon-bootstrap-plain"></i>
-                    </div>
-                    <div class="lang-box">
-                        <i class="devicon-javascript-plain"></i>
-                    </div>
-                    <div class="lang-box">
-                        <i class="devicon-php-plain"></i>
-                    </div>
-                    <div class="lang-box">
-                        <i class="devicon-mysql-plain"></i>
-                    </div>
-                    <div class="lang-box">
-                        <i class="devicon-git-plain"></i>
-                    </div>
-                </div>
-
+        <div class="d-flex justify-content-around align-items-center">
+            <div class="projeto-box ">
+                <img src="sources/ph.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, amet quasi autem sapiente dolorum reprehenderit hic quis, modi, placeat nisi sequi quo distinctio nemo. Iusto dignissimos et dolore aliquid consequatur.</p>
             </div>
-            <div class="col-5">
-                <div>
-                    EXPLICAÇÃO
-                </div>
+            <div class="projeto-box">
+                <img src="sources/ph.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, amet quasi autem sapiente dolorum reprehenderit hic quis, modi, placeat nisi sequi quo distinctio nemo. Iusto dignissimos et dolore aliquid consequatur.</p>
+            </div>
+            <div class="projeto-box">
+                <img src="sources/ph.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, amet quasi autem sapiente dolorum reprehenderit hic quis, modi, placeat nisi sequi quo distinctio nemo. Iusto dignissimos et dolore aliquid consequatur.</p>
             </div>
         </div>
     </section>
 
+    <script src="scripts/skills.js"></script>
 
 </body>
 </html>
