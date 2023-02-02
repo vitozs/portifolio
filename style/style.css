@@ -1,0 +1,57 @@
+/*
+    SEÇOES: #0D0D0D, #E9E9F2
+    FONTES: #E9E9F2 
+    DESTACAR: #777DF2
+
+*/
+
+body{
+    background-color: #0D0D0D;
+    color: #E9E9F2;
+}
+
+html,body{
+    overflow-x: hidden;
+}
+
+.destaque{
+    color: #777DF2;
+}
+
+#particles-js{
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+}
+
+
+/*SEÇÃO 1*/
+.sect-1{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.sect-1 h1{
+    width: 600px;
+
+}
+
+.sect-1.texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/***************************************************
+SEÇÃO 2*/
+
+.sect-2{
+    background-color: #E9E9F2;
+    height: 500px;
+    color: black;
+}
+
