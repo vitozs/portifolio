@@ -1,9 +1,22 @@
 let quadro_text = document.getElementById('texto')
 let title = document.getElementById('title')
-let quadro = document.getElementById('quadro')
+let quadro = document.querySelector('#quadro')
+let box =  document.getElementsByClassName('lang-box')
+
 
 function getLang(lang){
-    quadro.style = 'display:block;'
+    if(!quadro.classList.contains('active')){
+        quadro.classList.add('active')
+    }
+    
+    for(let i=0; box.length > i; i++){
+        box[i].addEventListener('mouseleave', ()=>{ 
+            quadro.classList.remove('active')
+
+    })
+    }
+
+
     switch (lang){
         
         case "html":
@@ -52,3 +65,4 @@ function getLang(lang){
     }
     
 }
+
