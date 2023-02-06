@@ -1,4 +1,4 @@
-let quadro_text = document.getElementById('texto')
+/*let quadro_text = document.getElementById('texto')
 let title = document.getElementById('title')
 let quadro = document.querySelector('#quadro')
 let box =  document.getElementsByClassName('lang-box')
@@ -65,4 +65,4 @@ function getLang(lang){
     }
     
 }
-
+*/

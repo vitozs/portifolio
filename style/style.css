@@ -41,6 +41,12 @@ hr{
 
 }
 
+a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+
+}
 
 /***********************************************
 HOME*/
@@ -190,19 +196,48 @@ SKILLS 3*/
 /*********************************************
 PROJETOS*/
 .projeto-box{
-    width: 300px;
-    height: 450px;
-    padding: 14px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 15px;
     font-size:0.8em ;
+
+
+}
+.projeto-box a{
+    width: 500px;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    box-shadow: 0 0 1em rgb(124, 123, 123);
-    background: white;
-    color: rgb(0, 0, 0);
-    border-radius: 20px;
+    color: rgb(255, 255, 255);
 
 }
+
+
+
+.projeto-box img{
+    box-shadow: 0 0 1em rgb(124, 123, 123);
+    transition: all 0.5s ease;
+}
+
+
+.projeto-box:hover img{
+   opacity: 0.4;
+   z-index: -1;
+}
+
+.projeto-box .acessar{
+    opacity: 0;
+    z-index: -1;
+    position: relative;
+    top: -4.5em;
+   
+ }
+
+.projeto-box:hover .acessar{
+    opacity: 1;
+    z-index: 1;
+ }
+
 
 
 
