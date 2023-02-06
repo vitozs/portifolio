@@ -17,9 +17,9 @@ document.addEventListener("DOMContentLoaded", function () {
       loop: false
     })
     .type('Olá, me chamo <span class="destaque"> Vitor</span>.', {delay:900}).break()
-    .type('E sou desenvolvedor <span class="destaque"> Javascript </span>', {delay:900}).delete(11)
-    .type('<span class="destaque"> PHP </span>', {delay:500}).delete(4)
-    .type('<span class="destaque"> SQL </span>', {delay:500}).delete(4)
+    .type('E sou Desenvolvedor <span class="destaque"> Javascript, </span>', {delay:900}).delete(12)
+    .type('<span class="destaque"> PHP, </span>', {delay:500}).delete(5)
+    .type('<span class="destaque"> SQL, </span>', {delay:500}).delete(5)
     .type('<span class="destaque"> Web</span>.', {delay:500})
 
     .go()

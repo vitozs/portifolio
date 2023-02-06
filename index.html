@@ -45,7 +45,7 @@
     <div  id="particles-js"></div>
 
     <header class="fixed-top" id="menu">
-        <nav class="d-flex justify-content-around align-items-center flex-row">
+        <nav class="d-md-flex justify-content-around align-items-center flex-row d-none ">
             <ul class="d-flex justify-content-around align-items-center flex-row">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#sobre">Sobre mim</a></li>
@@ -54,14 +54,20 @@
 
 
             </ul>
-            <div class="redes-menu">
-                <a href="https://www.linkedin.com/in/vitor-nunes-chagas/"><i class="bi bi-linkedin mx-5"></i></a>
+            <div class="d-flex flex-row justify-content-around align-items-center">
+                <a href="https://www.linkedin.com/in/vitor-nunes-chagas/"><i class="bi bi-linkedin mx-md-5"></i></a>
                 <a href="https://github.com/vitozs"><i class="bi bi-github"></i></a>
                 
             </div>
+
         </nav>
 
 
+        <nav class="menu-mobile d-flex d-md-none justify-content-end align-items-end p-0">
+            <div class="icon">
+                <i class="bi bi-list fs-1"></i>
+            </div>
+        </nav>
     </header>
 
     <section class="sect-1 d-flex justify-content-center align-items-center" id="home">
