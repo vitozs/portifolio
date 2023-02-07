@@ -1,9 +1,45 @@
+@media (min-width:1200px) and (max-width:1400px) {
+    
+    .projeto-box img{
+        box-shadow: 0 0 1em rgb(124, 123, 123);
+        transition: all 0.5s ease;
+    }
+
+
+    .projeto-box:hover img{
+    opacity: 0.4;
+    z-index: -1;
+    }
+
+    .projeto-box .acessar{
+        opacity: 0;
+        z-index: -1;
+        position: relative;
+        top: -4.5em;
+    
+    }
+
+    .projeto-box:hover .acessar{
+        opacity: 1;
+        z-index: 1;
+    }
+
+}
 
 @media (max-width: 930px) {
     header{
         font-size: 1em;
     }
+    .acessar{
+        margin-top: 20px;
+    }
+    .sect-3 .lang-box{
+        font-size: 2.5em;
+        margin: 15px;
+        border: none;
+        padding: 0;
 
+    }
 }
 
 
@@ -31,15 +67,28 @@
         width: 20%;
     }
 
+    .sect-1{
+        height: 400px;
+    }
+
+    #particles-js{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    
+    }
     .sect-1 h1{
         font-size: 1.2em;
+    }
+    .sect-3,.sect-2{
+        padding: 20px;
     }
 }
 
 @media (max-width:380px) {
-    .sect-3 .lang-box{
-        font-size: 1em;
-        margin: 5px;
+    .sect-1 h1{
+        max-width: 280px;
     }
 
     .projeto-box a{
@@ -49,7 +98,5 @@
     .sect-1 h1{
         font-size: 1.2em;
     }
-    .tenor-gif-embed{
-        display: none;
-    }
+
 }
