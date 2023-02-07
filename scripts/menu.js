@@ -18,14 +18,14 @@ function scroll(){
     console.log(scrolly)
 }
 
-
+let menu = document.querySelector('#menu')
+let icon = document.querySelector('.icon')
+let nav = document.querySelector('#mobile ul')
+let redes = document.querySelector('#mobile div.redes')
+let links = document.querySelectorAll('#mobile a')
 
 document.getElementById('icon').addEventListener('click', ()=>{
-    let menu = document.querySelector('#menu')
-    let icon = document.querySelector('.icon')
-    let nav = document.querySelector('#mobile ul')
-    let redes = document.querySelector('#mobile div.redes')
-    let links = document.querySelectorAll('#mobile a')
+
     
     for(let i=0; i<links.length; i++){
         links[i].addEventListener('click', ()=>{
@@ -55,3 +55,13 @@ document.getElementById('icon').addEventListener('click', ()=>{
         redes.classList.remove('d-flex');
     }       
 })
+
+function resizeFixed(){
+    if(window.innerWidth > 1000){
+        menu.classList.remove('toggle-menu')
+        nav.classList.add('d-none');
+        nav.classList.remove('d-flex');
+        redes.classList.add('d-none');
+        redes.classList.remove('d-flex');
+    }
+}
