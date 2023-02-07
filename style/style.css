@@ -143,6 +143,21 @@ nav ul li a::after{
     color: #777DF2;;
   }
 
+.toggle-menu{
+    height: 100vh;
+    background-color: white;
+    color: #000000;
+    overflow-y: auto;
+
+}
+
+.menu-mobile a{
+    color: black;
+    font-size: 2em;
+}
+
+
+
 .sect-1{
     height: 500px;
 }
@@ -213,6 +228,8 @@ SKILLS 3*/
 }
 /*********************************************
 PROJETOS*/
+
+
 .projeto-box{
     text-align: center;
     color: rgb(255, 255, 255);
