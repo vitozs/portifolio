@@ -5,7 +5,9 @@
     DESTACAR: #777DF2
 
 */
-
+.glider-dot.active {
+    background: black;
+}
 
 *{
     padding: 0;
@@ -175,9 +177,9 @@ nav ul li a::after{
 SOBRE MIM 2*/
 
 .white{
-    background-color: #ffffff;
+    background: white;
     color: rgb(0, 0, 0);
-
+    
 }
 
 .white hr{
@@ -232,9 +234,38 @@ PROJETOS*/
 .projeto--box{
     border: 1px solid black;
     border-radius: 20px;
-    padding: 15px;
+    padding: 25px;
     width: 22%;
-    background: #383737;
-    color: white;
+    background-color: #2e2c2c;
+
+    color: rgb(255, 253, 253);
     margin: 15px;
+}
+
+.projeto--box code{
+    background-color: #3d3434;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.projeto--box p{
+    margin-bottom: 1em;
+}
+.buttons{
+    border-radius: 100%;
+    background-color: #2e2c2c;
+    color: white;
+    padding: 10px;
+}
+
+/***********************************************************
+SERVIÇOS*/
+
+.servicos--card{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 2em;
+    width: 30%;
+    margin: 15px 10px;
+    border-radius: 15px;
 }

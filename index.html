@@ -8,8 +8,10 @@
     <!--BOOTSTRAP-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    <!--    BOOTSTRAP ICONS-->
+    <!--BOOTSTRAP ICONS-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!--GLIDER CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
     <!--CSS-->
     <link rel="stylesheet" href="style/style.css">
     <!--PARTICULAS-->
@@ -22,12 +24,13 @@
     <!--ICONS-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <!--Glidder-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
     <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
 
     <script src="scripts/menu.js" defer></script>
     <script src="scripts/slider_projetos.js"></script>
 
+    <!--Jquery-->
+    <script src="https://code.jquery.com/jquery-3.6.3.slim.min.js" integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo=" crossorigin="anonymous"></script>
 
     <style>
         @import url(style/media_query.css);
@@ -151,43 +154,63 @@
         <div class="glider-contain"> 
             <div class="glider">
                 <div class=" text-center projeto--box">
-                    <img src="sources/ph.png" alt="">
-                    <h1>1</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <code>Js, php, sql</code>
+                    <img src="sources/finans.gif" alt="">
+                    <div class="mt-3">
+                        <h3>Finans</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <code>
+                            {
+                                CSS, BOOTSTRAP, JS
+                            }
+                        </code>                    </div>
+                    
+                </div>
+                <div class=" text-center projeto--box">
+                    <img src="sources/spotify.gif" alt="">
+                    <div class="mt-3">
+                        <h3>Spotify</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <code>
+                            {
+                                CSS, BOOTSTRAP, JS
+                            }
+                        </code>
+                    </div>
+                </div>
+                <div class=" text-center projeto--box">
+                    <img src="sources/academia.gif" alt="">
+                    <div class="mt-3">
+                        <h3>Landing page - Academia</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <code>
+                            {
+                                CSS, BOOTSTRAP, JS
+                            }
+                        </code>                    </div>
+                </div>
+                <div class=" text-center projeto--box">
+                    <img src="sources/jogo_da_velha.gif" alt="">
+                    <div class="mt-3">
+                        <h3>Jogo da velha</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <code>Js, php, sql</code>
+                    </div>
                 </div>
                 <div class=" text-center projeto--box">
                     <img src="sources/ph.png" alt="">
-                    <h1>2</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <code>Js, php, sql</code>
+                    <div class="mt-3">
+                        <h3>Pesquisa endereço</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <code>Js, php, sql</code>
+                    </div>
                 </div>
                 <div class=" text-center projeto--box">
                     <img src="sources/ph.png" alt="">
-                    <h1>3</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <code>Js, php, sql</code>
-                </div>
-                <div class=" text-center projeto--box">
-                    <img src="sources/ph.png" alt="">
-                    <h1>4</h1>
-
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <code>Js, php, sql</code>
-                </div>
-                <div class=" text-center projeto--box">
-                    <img src="sources/ph.png" alt="">
-                    <h1>5</h1>
-
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <code>Js, php, sql</code>
-                </div>
-                <div class=" text-center projeto--box">
-                    <img src="sources/ph.png" alt="">
-                    <h1>6</h1>
-
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <code>Js, php, sql</code>
+                    <div class="mt-3">
+                        <h3>Lista de tarefas</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <code>Js, php, sql</code>
+                    </div>
                 </div>
                 
     
@@ -195,32 +218,46 @@
 
 
 
-            <button aria-label="Previous" class="glider-prev">«</button>
-            <button aria-label="Next" class="glider-next">»</button>
+            <button aria-label="Previous" class="glider-prev buttons"><i class="bi bi-chevron-left"></i></button>
+            <button aria-label="Next" class="glider-next buttons"><i class="bi bi-chevron-right"></i></button>
             <div role="tablist" class="dots"></div>
         </div>
         
 
     </section>
 
-    <section class="sect-4 white" id="projetos">
+    <section class="sect-4 " id="projetos">
         <h1 class="text-center mb-5">&lt;/Serviços&gt;</h1>
-        <div class="d-flex justify-content-around align-items-center flex-wrap">
-            <div class="w-25 text-center m-1">
-                <h1>Criação de sites</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut itaque autem ea qui assumenda, recusandae quidem voluptate? Tempora rerum fugit quisquam. Omnis consequuntur eligendi molestias maiores eius, dolore dignissimos doloremque.</p>
+        <div class="d-flex justify-content-between align-items-center flex-wrap ">
+            <div class="servicos--card text-center">
+                <h1><i class="bi bi-braces"></i></h1>
+                <h3>Criação de sites</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut itaque autem ea qui assumenda, recusandae quidem voluptate?</p>
             </div>
-            <div class="w-25 text-center m-1">
-                <h1>Manutenção</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut itaque autem ea qui assumenda, recusandae quidem voluptate? Tempora rerum fugit quisquam. Omnis consequuntur eligendi molestias maiores eius, dolore dignissimos doloremque.</p>
+            <div class=" servicos--card text-center">
+                <h1><i class="bi bi-wrench-adjustable"></i></h1>
+                <h3>Manutenção</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut itaque autem ea qui assumenda, recusandae quidem voluptate? </p>
             </div>
-            <div class="w-25 text-center m-1">
-                <h1>Públicação na web</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut itaque autem ea qui assumenda, recusandae quidem voluptate? Tempora rerum fugit quisquam. Omnis consequuntur eligendi molestias maiores eius, dolore dignissimos doloremque.</p>
+            <div class="servicos--card text-center">
+                <h1><i class="bi bi-pc-display"></i></h1>
+                <h3>Públicação na web</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut itaque autem ea qui assumenda, recusandae quidem voluptate?</p>
             </div>
-            <div class="w-25 text-center m-1">
-                <h1>Back-end</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut itaque autem ea qui assumenda, recusandae quidem voluptate? Tempora rerum fugit quisquam. Omnis consequuntur eligendi molestias maiores eius, dolore dignissimos doloremque.</p>
+            <div class="servicos--card text-center">
+                <h1><i class="bi bi-server"></i></h1>
+                <h3>Back-end</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut itaque autem ea qui assumenda, recusandae quidem voluptate?</p>
+            </div>
+            <div class="servicos--card text-center">
+                <h1><i class="bi bi-people-fill"></i></h1>
+                <h3>Suporte ao cliente</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut itaque autem ea qui assumenda, recusandae quidem voluptate?</p>
+            </div>
+            <div class="servicos--card text-center">
+                <h1><i class="bi bi-cart4"></i></h1>
+                <h3>Preço acessível</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut itaque autem ea qui assumenda, recusandae quidem voluptate?</p>
             </div>
         </div>
     </section>
