@@ -175,8 +175,8 @@ nav ul li a::after{
 SOBRE MIM 2*/
 
 .white{
-    background-color: #fefeff;
-    color: black;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
 
 }
 
@@ -229,27 +229,12 @@ SKILLS 3*/
 /*********************************************
 PROJETOS*/
 
-
-.projeto-box{
-    text-align: center;
-    color: rgb(255, 255, 255);
+.projeto--box{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 15px;
+    width: 22%;
+    background: #383737;
+    color: white;
     margin: 15px;
-    font-size:0.8em ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-
 }
-.projeto-box a{
-    width: 500px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    color: rgb(255, 255, 255);
-
-}
-
-
-
-
