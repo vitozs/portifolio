@@ -236,8 +236,7 @@ PROJETOS*/
     border-radius: 20px;
     padding: 25px;
     width: 22%;
-    background-color: #2e2c2c;
-
+    background-color: #1d1c1c;
     color: rgb(255, 253, 253);
     margin: 15px;
 }
@@ -246,6 +245,19 @@ PROJETOS*/
     background-color: #3d3434;
     padding: 20px;
     border-radius: 15px;
+    
+}
+
+.projeto--box pre{
+    margin: 0;
+}
+
+.projeto--box .code{
+    background-color: #2e2c2c;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    color: rgb(63, 123, 126);
 }
 
 .projeto--box p{

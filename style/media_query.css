@@ -55,6 +55,14 @@
         margin-right: 30px;
     }
 
+    .servicos--card{
+        padding: 1.5em;
+        width: auto;
+    }
+
+
+
+
 }
 
 @media (max-width:570px) {
@@ -85,6 +93,10 @@
     }
     .sect-3,.sect-2{
         padding: 20px;
+    }
+
+    .sect-4{
+        padding: 1em;
     }
 }
 
