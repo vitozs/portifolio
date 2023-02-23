@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+/*
+    SEÇOES: #0D0D0D, #E9E9F2
+    FONTES: #E9E9F2 
+    DESTACAR: #777DF2
+
+*/
+.glider-dot.active {
+    background: black;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #0D0D0D;
+    color: #E9E9F2;
+    width: 100%;
+}
+
+html, body{
+    overflow-x: hidden;
+
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px;
+
+}
+
+section{
+    padding: 3em 5em 3em 5em;
+    font-size: 1.20em;
+}
+
+hr{
+    width: 55%;
+    padding: 1px;
+    margin: auto;
+    margin-bottom: 4em;
+    opacity: 100%;
+    border: none;
+    
+}
+
+.destaque{
+    color: #777DF2;
+}
+
+#particles-js{
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+
+}
+
+a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+/***********************************************
+HOME*/
+
+header{
+    padding: 30px;
+    height: 3.7em;
+    font-size: 1.3em;
+    transition-timing-function: ease;
+    transition-duration: 0.5s;
+    transition-property: all;
+}
+
+nav{
+    /*display: flex;
+    justify-content: space-between;
+    flex-direction: row;*/
+    width: 100%;
+    padding: 0 5em 0 5em;
+
+}
+
+nav ul{
+    list-style: none;
+    /*display: flex;
+    justify-content: space-between;*/
+}
+
+nav ul li{
+    margin-right: 50px;
+
+}
+
+.menu-white{
+    background: white; color: black; 
+    box-shadow: 0 0 2em #777DF2;
+    padding: 20px 30px; }
+
+.menu-white a{
+    color: black;
+}
+
+.fixed-top{
+    position: fixed;
+}
+
+nav a{
+    text-decoration: none;
+    position: relative;
+    color: white;
+
+}
+
+nav ul li a::after{
+    content: "";
+    background: none repeat scroll 0 0 transparent;
+    position: absolute;
+    background-color: #777DF2;
+    display: block;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    transition: width 0.4s ease-in-out 0s, left 0.4s ease-in-out 0s;
+  
+    
+  
+  }
+  
+  nav i{
+    font-size: 1.3em;
+  }
+
+  nav ul li a:hover::after {
+      width: 100%;
+      left: 0;
+  }
+
+  nav a:hover{
+    color: #777DF2;;
+  }
+
+.toggle-menu{
+    height: 100vh;
+    background-color: white;
+    color: #000000;
+    overflow-y: auto;
+
+}
+
+.menu-mobile a{
+    color: black;
+    font-size: 2em;
+}
+
+.menu-mobile li{
+    margin-bottom: 50px;
+
+}
+
+.sect-1{
+    height: 500px;
+}
+
+.sect-1 h1{
+    width: max-content;
+}
+
+.sect-1.texto{
+    margin: auto;
+}
+
+
+/***************************************************
+SOBRE MIM 2*/
+
+.white{
+    background: white;
+    color: rgb(0, 0, 0);
+    
+}
+
+.white hr{
+    background-color: #000000;
+}
+
+.sect-2 hr{
+    background-color: rgb(0, 0, 0);
+}
+
+.sect-2 .btn-outline-dark:hover{
+    background-color: #000000;
+    display: block;
+}
+/*********************************************************************
+SKILLS 3*/
+
+
+.code--box{
+    display: flex;
+    flex-direction: column;
+    background-color: #161515;
+    padding: 30px;
+    border-radius: 15px;
+    font-weight: 500;
+    font-family: 'Roboto Mono', monospace;
+    width: 50%;
+
+}
+
+.line{
+    padding-left: 3em;
+}
+
+.code--class{
+    color: rgb(96, 82, 172);
+}
+.code--classname{
+    color: yellow;
+}
+.chaves{
+    color: #d1df0c;
+}
+.code--type{
+    color: #595fdd;
+}
+
+.code--attr{
+    color: red;
+}
+
+.code--dot{
+    color: rgb(138, 136, 138);
+}
+/*********************************************
+PROJETOS*/
+
+.projeto--box{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 25px;
+    background-color: #161515;;
+    color: rgb(255, 253, 253);
+    margin: 10px;
+    height: 600px;
+
+}
+
+
+
+.projeto--box pre{
+    margin: 0;
+}
+
+.projeto--box .code{
+    background-color: #2e2c2c;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    color: rgb(63, 123, 126);
+}
+
+.projeto--box p{
+    margin-bottom: 1em;
+}
+.buttons{
+    border-radius: 100%;
+    background-color: #2e2c2c;
+    color: white;
+    padding: 10px;
+}
+
+.sect-4{
+    padding: 2em;
+}
+/***********************************************************
+SERVIÇOS*/
+
+.servicos--card{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 2em;
+    width: 30%;
+    margin: 15px 10px;
+    border-radius: 15px;
+}
+
+.links a {
+    margin: 10px;
+}
