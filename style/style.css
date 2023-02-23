@@ -158,7 +158,10 @@ nav ul li a::after{
     font-size: 2em;
 }
 
+.menu-mobile li{
+    margin-bottom: 50px;
 
+}
 
 .sect-1{
     height: 500px;
