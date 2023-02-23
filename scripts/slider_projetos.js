@@ -10,7 +10,7 @@ window.addEventListener('load', ()=>{
         },
         responsive:[
             {
-                breakpoint: 500,
+                breakpoint: 840,
                 settings:{
                     slidesToShow: 2,
                     slidesToScroll: 2

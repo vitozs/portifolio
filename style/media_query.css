@@ -1,4 +1,4 @@
-@media (min-width:1200px) and (max-width:1400px) {
+@media (min-width:1200px){
     
     .projeto-box img{
         box-shadow: 0 0 1em rgb(124, 123, 123);
@@ -42,6 +42,12 @@
         padding: 0;
 
     }
+
+    .code--box{
+        font-size: 0.5em;
+        width: 60%;
+    }
+    
 }
 
 
@@ -58,6 +64,10 @@
     .servicos--card{
         padding: 1.5em;
         width: auto;
+    }
+    
+    .cv{
+        padding-bottom: 35px;
     }
 
 
@@ -97,6 +107,10 @@
 
     .sect-4{
         padding: 1em;
+    }
+    .code--box{
+        font-size: 0.5em;
+        width: 100%;
     }
 }
 

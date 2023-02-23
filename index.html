@@ -85,11 +85,12 @@
     </header>
 
     <!---APRESENTAÇÃO-->
-    <section class="sect-1 d-flex justify-content-center align-items-center" id="home">
+    <section class="sect-1 d-flex justify-content-center align-items-center flex-column" id="home">
         <div class="texto">
             <h1 id="apresentacao"></h1>
             <h1 id="langs"></h1>
         </div>
+
     </section>
 
     <!---SOBRE MIM-->
@@ -108,6 +109,9 @@
                 <p>
                     Busco experiência no mercado com projetos reais para colocar em prática minhas habilidades técnicas, aperfeiçoando meus conhecimentos e aprendendo novas coisas.
                 </p>
+                <div class="d-grid gap-2 cv">
+                    <a href="https://drive.google.com/file/d/1xMioTO3TIQEiy5EKjNwlvD6vq-pA-3CG/view?usp=sharing" class="btn btn-lg btn-outline-dark">Baixar CV</a>
+                </div>
             </div>
             <div class="col-12 col-md-6">
                 <div class="tenor-gif-embed" data-postid="18657810" data-share-method="host" data-aspect-ratio="1.79775" data-width="100%"><a href="https://tenor.com/view/coding-gif-18657810">Coding GIF</a>from <a href="https://tenor.com/search/coding-gifs">Coding GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>            </div>
@@ -120,30 +124,62 @@
 
         <h1 class="text-center mb-5">&lt;/Skills&gt;</h1>
         <!--<hr>-->
-        
-        <div class="d-flex justify-content-center align-items-center flex-row flex-wrap" >
-            <div class="lang-box" id="html">
-                <i class="devicon-html5-plain"></i>
-            </div>
-            <div class="lang-box">
-                <i class="devicon-css3-plain"></i>
-            </div>
-            <div class="lang-box">
-                <i class="devicon-bootstrap-plain"></i>
-            </div>
-            <div class="lang-box">
-                <i class="devicon-javascript-plain"></i>
-            </div>
-            <div class="lang-box">
-                <i class="devicon-php-plain"></i>
-            </div>
-            <div class="lang-box">
-                <i class="devicon-mysql-plain"></i>
-            </div>
-            <div class="lang-box">
-                <i class="devicon-git-plain"></i>
+        <div class="d-flex justify-content-center align-items-center">
+            <div class="code--box">
+                <span>
+                    <span class="code--class">class</span>
+                    <span class="code--classname">Skills</span>
+                    <span class="chaves">{</span>
+                </span>
+                <span class="line">
+                    <span class="code--type">private</span>
+                    <span class="code--attr">$Javascript</span>
+                    <span class="code--dot">;</span>
+                </span>
+                <span class="line">
+                    <span class="code--type">private</span>
+                    <span class="code--attr">$Bootstrap</span>
+                    <span class="code--dot">;</span>
+                </span>
+                <span class="line">
+                    <span class="code--type">private</span>
+                    <span class="code--attr">$PHP</span>
+                    <span class="code--dot">;</span>
+                </span>
+                <span class="line">
+                    <span class="code--type">private</span>
+                    <span class="code--attr">$POO</span>
+                    <span class="code--dot">;</span>
+                </span>
+                <span class="line">
+                    <span class="code--type">private</span>
+                    <span class="code--attr">$PHP_PDO</span>
+                    <span class="code--dot">;</span>
+                </span>
+                <span class="line">
+                    <span class="code--type">private</span>
+                    <span class="code--attr">$MySQL</span>
+                    <span class="code--dot">;</span>
+                </span>
+                <span class="line">
+                    <span class="code--type">private</span>
+                    <span class="code--attr">$Ajax</span>
+                    <span class="code--dot">;</span>
+                </span>
+                <span class="line">
+                    <span class="code--type">private</span>
+                    <span class="code--attr">$Jquery</span>
+                    <span class="code--dot">;</span>
+                </span>
+                <span class="line">
+                    <span class="code--type">private</span>
+                    <span class="code--attr">$APIS</span>
+                    <span class="code--dot">;</span>
+                </span>
+                <span class="chaves">}</span>
             </div>
         </div>
+
 
     </section>
 
@@ -153,73 +189,107 @@
         
         <div class="glider-contain"> 
             <div class="glider">
-                <div class=" text-center projeto--box">
-                    <img src="sources/finans.gif" alt="">
-                    <div class="mt-3">
-                        <h3>Finans</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <div class="code">
-                            <pre>{CSS, BOOTSTRAP, JS}</pre>
-                        </div>                   
-                     </div>
-                    
-                </div>
-                <div class=" text-center projeto--box">
-                    <img src="sources/spotify.gif" alt="">
-                    <div class="mt-3">
-                        <h3>Spotify</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <div class="code">
-                            <pre>{CSS, BOOTSTRAP, JS}</pre>
-                        </div>    
+                <div>
+                    <div class=" text-center projeto--box">
+                        <img src="sources/finans.gif" alt="">
+                        <div class="mt-3">
+                            <h3>Finans</h3>
+                            <p>Site feito para estudar o Bootstrap e responsividade em outros dispositivos.</p>
+                            <div class="code">
+                                <pre>{CSS, BOOTSTRAP, JS}</pre>
+                            </div> 
+                            <div class="links mt-2">
+                                <a href="https://github.com/vitozs/finans-landing-page" class="btn btn-lg btn-outline-light">Ver no Github</a>
+                                <a href="https://vitozs.github.io/finans-landing-page/" class="btn btn-lg  btn-outline-success">Acessar página</a>
+                            </div>                     
+                         </div>
+                        
                     </div>
                 </div>
-                <div class=" text-center projeto--box">
-                    <img src="sources/academia.gif" alt="">
-                    <div class="mt-3">
-                        <h3>Landing page - Academia</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <div class="code">
-                            <pre>{CSS, BOOTSTRAP, JS}</pre>
-                        </div>                
-                    </div>         
-                </div>
-                <div class=" text-center projeto--box">
-                    <img src="sources/jogo_da_velha.gif" alt="">
-                    <div class="mt-3">
-                        <h3>Jogo da velha</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <div class="code">
-                            <pre>{CSS, BOOTSTRAP, JS}</pre>
-                        </div>       
+                <div>
+                    <div class=" text-center projeto--box">
+                        <img src="sources/spotify.gif" alt="">
+                        <div class="mt-3">
+                            <h3>Spotify</h3>
+                            <p>Site feito para estudar as classes do Bootstrap.</p>
+                            <div class="code">
+                                <pre>{CSS, BOOTSTRAP, JS}</pre>
+                            </div>  
+                            <div class="links mt-2">
+                                <a href="https://github.com/vitozs/spotify-page" class="btn btn-lg  btn-outline-light">Ver no Github</a>
+                                <a href="https://vitozs.github.io/spotify-page/" class="btn  btn-lg  btn-outline-success">Acessar página</a>
+                            </div>     
+                        </div>
                     </div>
                 </div>
-                <div class=" text-center projeto--box">
-                    <img src="sources/ph.png" alt="">
-                    <div class="mt-3">
-                        <h3>Pesquisa endereço</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <div class="code">
-                            <pre>{CSS, BOOTSTRAP, JS}</pre>
+                <div>
+                    <div class=" text-center projeto--box">
+                        <img src="sources/academia.gif" alt="">
+                        <div class="mt-3">
+                            <h3>Academia</h3>
+                            <p>Página feita para praticar responsividade e design.</p>
+                            <div class="code">
+                                <pre>{CSS, BOOTSTRAP, JS}</pre>
+                            </div>   
+                            <div class="links mt-2">
+                                <a href="https://github.com/vitozs/Academia-landing-page" class="btn btn-lg  btn-outline-light">Ver no Github</a>
+                                <a href="https://vitozs.github.io/Academia-landing-page/" class="btn btn-lg  btn-outline-success">Acessar página</a>
+                            </div>             
                         </div>         
                     </div>
                 </div>
-                <div class=" text-center projeto--box">
-                    <img src="sources/ph.png" alt="">
-                    <div class="mt-3">
-                        <h3>Lista de tarefas</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <div class="code">
-                            <pre>{CSS, BOOTSTRAP, JS}</pre>
-                        </div>         
+                <div>
+                    <div class=" text-center projeto--box">
+                        <img src="sources/jogo_da_velha.gif" alt="" height="200">
+                        <div class="mt-3">
+                            <h3>Jogo da velha</h3>
+                            <p>Jogo feito com Javascript para praticar a lógica da programação.</p>
+                            <div class="code">
+                                <pre>{CSS, BOOTSTRAP, JS}</pre>
+                            </div>   
+                            <div class="links mt-2">
+                                <a href="" class="btn  btn-lg  btn-outline-light">Ver no Github</a>
+                                <a href="" class="btn btn-lg  btn-outline-success">Acessar página</a>
+                            </div>       
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class=" text-center projeto--box">
+                        <img src="sources/orcamento-pessoal.png" alt="">
+                        <div class="mt-3">
+                            <h3>App orçamento pessoal</h3>
+                            <p>Projeto feito em Javascript, praticando a orientação a objetos e o armazenamento de dados no LocalStorage.</p>
+                            <div class="code">
+                                <pre>{JS, POO, LocalStorage}</pre>
+                            </div>  
+                            <div class="links mt-2">
+                                <a href="https://github.com/vitozs/App-or-amento-pessoal" class="btn btn-lg   btn-outline-light">Ver no Github</a>
+                                <a href="vitozs.github.io/App-or-amento-pessoal/" class="btn btn-lg btn-outline-success">Acessar página</a>
+                            </div>          
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class=" text-center projeto--box">
+                        <img src="sources/lista-de-tarefas.png" alt="">
+                        <div class="mt-3">
+                            <h3>Lista de tarefas</h3>
+                            <p>Projeto feito em PHP para praticar CRUD e manipulação do banco de dados.</p>
+                            <div class="code">
+                                <pre>{JS, PHP, POO, PDO, MySQL}</pre>
+                            </div> 
+                            <div class="links mt-2">
+                                <a href="https://github.com/vitozs/ListaDeTarefas" class="btn  btn-lg btn-outline-light">Ver no Github</a>
+                                <a href="https://listadetarefasestudo.000webhostapp.com/" class="btn btn-lg btn-outline-success">Acessar página</a>
+                            </div>           
+                        </div>
                     </div>
                 </div>
                 
+                
     
             </div>
-
-
-
             <button aria-label="Previous" class="glider-prev buttons"><i class="bi bi-chevron-left"></i></button>
             <button aria-label="Next" class="glider-next buttons"><i class="bi bi-chevron-right"></i></button>
             <div role="tablist" class="dots"></div>
@@ -234,37 +304,37 @@
             <div class="servicos--card text-center">
                 <h1><i class="bi bi-braces"></i></h1>
                 <h3>Criação de sites</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut itaque autem ea qui assumenda, recusandae quidem voluptate?</p>
+                <p>Criação de páginas profissionais e customizados de acordo com o gosto do cliente.</p>
             </div>
             <div class=" servicos--card text-center">
                 <h1><i class="bi bi-wrench-adjustable"></i></h1>
                 <h3>Manutenção</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut itaque autem ea qui assumenda, recusandae quidem voluptate? </p>
+                <p>Manutenção de sites que possuem problemas de responsividade e design.</p>
             </div>
             <div class="servicos--card text-center">
                 <h1><i class="bi bi-pc-display"></i></h1>
                 <h3>Públicação na web</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut itaque autem ea qui assumenda, recusandae quidem voluptate?</p>
+                <p>Publicação do site na web, utilizando servidores de hospedagens altamente recomendados no mercado.</p>
             </div>
             <div class="servicos--card text-center">
                 <h1><i class="bi bi-server"></i></h1>
                 <h3>Back-end</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut itaque autem ea qui assumenda, recusandae quidem voluptate?</p>
+                <p>Cuidar da parte do servidor, e se possivel integrar um banco de dados ao seu site.</p>
             </div>
             <div class="servicos--card text-center">
                 <h1><i class="bi bi-people-fill"></i></h1>
                 <h3>Suporte ao cliente</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut itaque autem ea qui assumenda, recusandae quidem voluptate?</p>
+                <p>Disponivel a solucionar futuras modificações de acordo com o cliente após a criação da página.</p>
             </div>
             <div class="servicos--card text-center">
                 <h1><i class="bi bi-cart4"></i></h1>
                 <h3>Preço acessível</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut itaque autem ea qui assumenda, recusandae quidem voluptate?</p>
+                <p>Cobramos preços acessíveis para a criação de seu site.</p>
             </div>
         </div>
     </section>
     <!--FOOTER-->
-    <footer class="py-5 bg-dark">
+    <footer class="py-5" style="background-color: #0D0D0D;">
         <p class="text-center">© Copyright <strong>Vitor Nunes Chagas</strong>. All Rights Reserved</p>
     </footer>
 
