@@ -159,7 +159,7 @@ nav ul li a::after{
 }
 
 .menu-mobile li{
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 
 }
 
@@ -175,7 +175,11 @@ nav ul li a::after{
     margin: auto;
 }
 
-
+/*********************************************************
+SKILLS*/
+.skill{
+    margin-bottom: 30px;
+}
 /***************************************************
 SOBRE MIM 2*/
 
@@ -201,42 +205,6 @@ SOBRE MIM 2*/
 SKILLS 3*/
 
 
-.code--box{
-    display: flex;
-    flex-direction: column;
-    background-color: #161515;
-    padding: 30px;
-    border-radius: 15px;
-    font-weight: 500;
-    font-family: 'Roboto Mono', monospace;
-    width: 50%;
-
-}
-
-.line{
-    padding-left: 3em;
-}
-
-.code--class{
-    color: rgb(96, 82, 172);
-}
-.code--classname{
-    color: yellow;
-}
-.chaves{
-    color: #d1df0c;
-}
-.code--type{
-    color: #595fdd;
-}
-
-.code--attr{
-    color: red;
-}
-
-.code--dot{
-    color: rgb(138, 136, 138);
-}
 /*********************************************
 PROJETOS*/
 
@@ -247,7 +215,6 @@ PROJETOS*/
     background-color: #161515;;
     color: rgb(255, 253, 253);
     margin: 10px;
-    height: 600px;
 
 }
 
@@ -273,6 +240,7 @@ PROJETOS*/
     background-color: #2e2c2c;
     color: white;
     padding: 10px;
+    opacity: 0.9;
 }
 
 .sect-4{
@@ -285,7 +253,7 @@ SERVIÇOS*/
     background-color: #ffffff;
     color: rgb(0, 0, 0);
     padding: 2em;
-    width: 30%;
+    height: 90%;
     margin: 15px 10px;
     border-radius: 15px;
 }

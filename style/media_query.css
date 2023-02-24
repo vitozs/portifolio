@@ -106,12 +106,21 @@
     }
 
     .sect-4{
-        padding: 1em;
+        padding: 1.5em;
     }
     .code--box{
-        font-size: 0.5em;
+        font-size: 0.7em;
         width: 100%;
     }
+
+    .buttons{
+        border-radius: 100%;
+        background-color: #2e2c2c;
+        color: white;
+        padding: 6px;
+        opacity: 0.9;
+    }
+    
 }
 
 @media (max-width:380px) {
